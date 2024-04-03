@@ -41,27 +41,27 @@
     <hr> 
     <div class="cards-container">
         <div class="card">
-            <img src="lecture-icon.png" alt="Lecture">
+            <img src="https://picsum.photos/id/237/200/300" alt="Lecture">
             <h2>Lecture</h2>
             <p>Listen to the speakers from various countries about the messages of sharing and opening.</p>
         </div>
         <div class="card">
-            <img src="exhibition-icon.png" alt="CC Exhibition">
+            <img src="https://picsum.photos/id/237/200/300" alt="CC Exhibition">
             <h2>CC Exhibition</h2>
             <p>Listen to the speakers from various countries about the messages of sharing and opening.</p>
         </div>
         <div class="card">
-            <img src="forum-icon.png" alt="Forum">
+            <img src="https://picsum.photos/id/237/200/300" alt="Forum">
             <h2>Forum</h2>
             <p>Listen to the speakers from various countries about the messages of sharing and opening</p>
         </div>
         <div class="card">
-            <img src="workshop-icon.png" alt="Workshop">
+            <img src="https://picsum.photos/id/237/200/300" alt="Workshop">
             <h2>Workshop</h2>
             <p>Listen to the speakers from various countries about the messages of sharing and opening.</p>
         </div>
         <div class="card">
-            <img src="ignite-icon.png" alt="CC Ignite">
+            <img src="https://picsum.photos/id/237/200/300" alt="CC Ignite">
             <h2>CC Ignite</h2>
             <p>Listen to the speakers from various countries about the messages of sharing and opening.</p>
         </div>
@@ -73,79 +73,52 @@
 <div class="speakers-section">
     <h2>Featured Speakers</h2>
     <hr class="section-hr">
-    <div class="speaker-cards-container">
+    <div id="cont" class="speaker-cards-container">
         <!-- Speaker 1 -->
-        <div class="speaker-card">
-            <img src="https://st3.depositphotos.com/12982378/17888/i/450/depositphotos_178885894-stock-photo-grey-hair-professor-sitting-table.jpg" alt="Yochai Benkler" class="speaker-photo">
-            <div class="speaker-info">
-                <h3>Yochai Benkler</h3>
-                <p class="title">Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</p>
-                <hr class="prof-hr">
-                <p>Benkler studies commons-based peer production, and published his seminal book The Wealth of Networks in 2006.</p>
-            </div>
-        </div>
-        <!-- Speaker 2 -->
-        <div class="speaker-card">
-            <img src="https://st3.depositphotos.com/12982378/17888/i/450/depositphotos_178885894-stock-photo-grey-hair-professor-sitting-table.jpg" alt="Yochai Benkler" class="speaker-photo">
-            <div class="speaker-info">
-                <h3>Yochai Benkler</h3>
-                <p class="title">Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</p>
-                <hr class="prof-hr">
-                <p>Benkler studies commons-based peer production, and published his seminal book The Wealth of Networks in 2006.</p>
-            </div>
-        </div>
-
-        <div class="speaker-card">
-            <img src="https://st3.depositphotos.com/12982378/17888/i/450/depositphotos_178885894-stock-photo-grey-hair-professor-sitting-table.jpg" alt="Yochai Benkler" class="speaker-photo">
-            <div class="speaker-info">
-                <h3>Yochai Benkler</h3>
-                <p class="title">Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</p>
-                <hr class="prof-hr">
-                <p>Benkler studies commons-based peer production, and published his seminal book The Wealth of Networks in 2006.</p>
-            </div>
-        </div>
-
-
-        <div class="speaker-card">
-            <img src="https://st3.depositphotos.com/12982378/17888/i/450/depositphotos_178885894-stock-photo-grey-hair-professor-sitting-table.jpg" alt="Yochai Benkler" class="speaker-photo">
-            <div class="speaker-info">
-                <h3>Yochai Benkler</h3>
-                <p class="title">Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</p>
-                <hr class="prof-hr">
-                <p>Benkler studies commons-based peer production, and published his seminal book The Wealth of Networks in 2006.</p>
-            </div>
-        </div>
-
-
-
-        <div class="speaker-card">
-            <img src="https://st3.depositphotos.com/12982378/17888/i/450/depositphotos_178885894-stock-photo-grey-hair-professor-sitting-table.jpg" alt="Yochai Benkler" class="speaker-photo">
-            <div class="speaker-info">
-                <h3>Yochai Benkler</h3>
-                <p class="title">Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</p>
-                <hr class="prof-hr">
-                <p>Benkler studies commons-based peer production, and published his seminal book The Wealth of Networks in 2006.</p>
-            </div>
-        </div>
-
-
-        <div class="speaker-card">
-            <img src="https://st3.depositphotos.com/12982378/17888/i/450/depositphotos_178885894-stock-photo-grey-hair-professor-sitting-table.jpg" alt="Yochai Benkler" class="speaker-photo">
-            <div class="speaker-info">
-                <h3>Yochai Benkler</h3>
-                <p class="title">Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</p>
-                <hr class="prof-hr">
-                <p>Benkler studies commons-based peer production, and published his seminal book The Wealth of Networks in 2006.</p>
-            </div>
-        </div>
+        
 
 
         <!-- Additional speakers... -->
     </div>
 </div>
 
+<button onclick="getData()"> Get Data </button>
 
 
+<div class="partner-section">
+    <h2>Partner <span class="underline"></span></h2>
+    <div class="logos-container">
+        <!-- Replace src with the path to the actual logo images -->
+        <img src="mozilla-logo.png" alt="Mozilla" class="partner-logo">
+        <img src="google-logo.png" alt="Google" class="partner-logo">
+        <img src="naver-logo.png" alt="NAVER" class="partner-logo">
+        <img src="daumkakao-logo.png" alt="Daum Kakao" class="partner-logo">
+        <img src="airbnb-logo.png" alt="Airbnb" class="partner-logo">
+    </div>
+</div>
+
+
+<script>
+    const data = [{"name" : "YoChaibenkler", "title" : "Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School", "description" : "Benkler studies commons-based peer production, and published his seminal book The Wealth of Networks in 2006.", "image" : "https://st3.depositphotos.com/12982378/17888/i/450/depositphotos_178885894-stock-photo-grey-hair-professor-sitting-table.jpg"}, {"name" : "YoChaibenkler", "title" : "Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School", "description" : "Benkler studies commons-based peer production, and published his seminal book The Wealth of Networks in 2006.", "image" : "https://st3.depositphotos.com/12982378/17888/i/450/depositphotos_178885894-stock-photo-grey-hair-professor-sitting-table.jpg"},{"name" : "YoChaibenkler", "title" : "Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School", "description" : "Benkler studies commons-based peer production, and published his seminal book The Wealth of Networks in 2006.", "image" : "https://st3.depositphotos.com/12982378/17888/i/450/depositphotos_178885894-stock-photo-grey-hair-professor-sitting-table.jpg"},{"name" : "YoChaibenkler", "title" : "Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School", "description" : "Benkler studies commons-based peer production, and published his seminal book The Wealth of Networks in 2006.", "image" : "https://st3.depositphotos.com/12982378/17888/i/450/depositphotos_178885894-stock-photo-grey-hair-professor-sitting-table.jpg"},{"name" : "YoChaibenkler", "title" : "Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School", "description" : "Benkler studies commons-based peer production, and published his seminal book The Wealth of Networks in 2006.", "image" : "https://st3.depositphotos.com/12982378/17888/i/450/depositphotos_178885894-stock-photo-grey-hair-professor-sitting-table.jpg"},{"name" : "YoChaibenkler", "title" : "Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School", "description" : "Benkler studies commons-based peer production, and published his seminal book The Wealth of Networks in 2006.", "image" : "https://st3.depositphotos.com/12982378/17888/i/450/depositphotos_178885894-stock-photo-grey-hair-professor-sitting-table.jpg"},];
+
+    
+
+    function getData(){
+        const speakerCardsContainer = document.getElementById("cont");
+    data.forEach(speaker => {
+       speakerCardsContainer.innerHTML += `<div class="speaker-card">
+            <img src="${speaker.image}" alt="Yochai Benkler" class="speaker-photo">
+            <div class="speaker-info">
+                <h3>${speaker.title}</h3>
+                <p class="title">${speaker.title}</p>
+                <hr class="prof-hr">
+                <p>${speaker.description}</p>
+            </div>
+        </div>`
+    });
+
+    }
+</script>
 
 </body>
 </html>

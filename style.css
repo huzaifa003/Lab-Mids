@@ -1,0 +1,83 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: offwhite; /* Make sure to replace with a valid color value if 'offwhite' is not recognized */
+}
+
+.top {
+  background-color: #000;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 40px;
+}
+
+.top a {
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.navbar {
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; /* Center the children horizontally */
+  height: 70px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.37);
+}
+
+.logoup {
+  position: absolute; /* Position the logo absolutely to allow centering of menu items */
+  left: 50px; /* Adjust as needed */
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  width: 100px;
+  height: auto;
+}
+
+.logo {
+  /* position: absolute; Position the logo absolutely to allow centering of menu items */
+  left: 50px; /* Adjust as needed */
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+    
+}
+
+.menu-items {
+  display: flex;
+  align-items: center; /* Center the items vertically */
+  list-style: none; /* Remove list styling if you use <ul> for menu items */
+}
+
+.nav-item-down {
+  color: rgb(152, 152, 152);
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 16px;
+  margin-right: 20px;
+}
+
+.special {
+  color: rgb(255, 0, 0);
+  padding: 14px 20px;
+  border: 5px solid red;
+  align-self: flex-end;
+}
+
+.special a {
+  color: red;
+  text-decoration: none;
+}
+
+.nav-item:hover,
+.special:hover {
+  background-color: grey;
+}
